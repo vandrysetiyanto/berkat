@@ -224,8 +224,8 @@ img {
 }
 
 .bg-primary, .btn-primary, .btn-white:hover {
-  background: #21c87a !important;
-  border-color: #21c87a !important;
+  background: #02adfc !important;
+  border-color: #02adfc !important;
   color: #fff;
 }
 
@@ -277,11 +277,11 @@ img {
 }
 
 .bg-primary {
-  background: #21c87a !important;
+  background: #02adfc !important;
 }
 
 a {
-  color: #21c87a;
+  color: #02adfc;
 }
 
 a:hover, a:focus {
@@ -302,7 +302,7 @@ a:hover, a:focus {
 }
 
 .header-socials li a {
-  color: #21c87a;
+  color: #02adfc;
 }
 
 /*-----------------
@@ -322,7 +322,7 @@ a:hover, a:focus {
 
 .icon-block {
   margin-right: 20px;
-  color: #21c87a;
+  color: #02adfc;
   font-size: 40px;
   line-height: 20px;
   font-weight: 400;
@@ -346,7 +346,7 @@ a:hover, a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: #21c87a;
+  background: #02adfc;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
 }
@@ -647,7 +647,7 @@ PAGE BANNER
 .dropdown-item:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #21c87a;
+  background-color: #02adfc;
 }
 
 /*----------------------
@@ -740,7 +740,7 @@ PAGE BANNER
   position: absolute;
   content: "";
   top: -27px;
-  background-color: #21c87a;
+  background-color: #02adfc;
   opacity: .3;
   width: 80px;
   right: 70px;
@@ -765,7 +765,7 @@ ABOUT-2
 }
 
 #about .img-block img {
-  border: 5px solid #21c87a;
+  border: 5px solid #02adfc;
 }
 
 .pt-6 {
@@ -780,7 +780,7 @@ ABOUT-2
  SERVICE
 -----------------------*/
 h5.subtitle {
-  color: #21c87a;
+  color: #02adfc;
   margin-bottom: 10px;
   font-weight: 300;
 }
@@ -811,7 +811,7 @@ h5.subtitle {
   font-size: 25px;
   width: 50px;
   height: 50px;
-  background: #21c87a;
+  background: #02adfc;
   text-align: center;
   border-radius: 50%;
   padding-top: 5px;
@@ -875,7 +875,7 @@ h5.subtitle {
 }
 
 .web-service-block:hover i {
-  color: #21c87a;
+  color: #02adfc;
 }
 
 .web-service-block:hover h3 {
@@ -957,7 +957,7 @@ h5.subtitle {
 }
 
 .project-content-block h4 {
-  color: #21c87a;
+  color: #02adfc;
 }
 
 .project-content-block p {
@@ -995,7 +995,7 @@ h5.subtitle {
   position: absolute;
   left: 30px;
   top: -23px;
-  background: #21c87a;
+  background: #02adfc;
   color: #fff;
 }
 
@@ -1109,7 +1109,7 @@ h5.subtitle {
   font-family: "Font Awesome 5 Free";
   left: 0px;
   top: 5px;
-  color: #21c87a;
+  color: #02adfc;
   font-weight: 900;
 }
 
@@ -1195,7 +1195,7 @@ PRICING-2
 }
 
 .blog-content:hover a h3 {
-  color: #21c87a;
+  color: #02adfc;
 }
 
 .blog-content h6 span {
@@ -1292,11 +1292,11 @@ CONTACT PAGE
   font-size: 40px;
   margin-bottom: 20px;
   display: block;
-  color: #21c87a;
+  color: #02adfc;
 }
 
 .form-control:focus, .form-control:hover {
-  border-color: #21c87a;
+  border-color: #02adfc;
   box-shadow: none;
 }
 
@@ -1376,7 +1376,7 @@ CONTACT PAGE
 }
 
 .current-year {
-  color: #21c87a !important;
+  color: #02adfc !important;
 }
 
 /*-----------------------------
@@ -1388,7 +1388,7 @@ CONTACT PAGE
   right: 30px;
   bottom: 50px;
   z-index: 999;
-  background: #21c87a;
+  background: #02adfc;
   color: #fff !important;
   border-radius: 100%;
   opacity: 0;
@@ -1650,7 +1650,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #02adfc;
   }
   #map {
     margin-top: 40px;
@@ -1682,7 +1682,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #02adfc;
   }
   .top-info-block {
     text-align: center;
@@ -1905,7 +1905,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #02adfc;
   }
   .web-service-block {
     margin-bottom: 30px;
