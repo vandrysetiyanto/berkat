@@ -129,10 +129,98 @@
                             <div class="col-lg-12 col-sm-12 box-bkd" style="margin-bottom: 64px;">
                                 <h3>Profil Donatur</h3>
                                 <hr />
+                                <div>
+                                    <div class="form-group">
+                                        <label for="nama">Nama Lengkap</label>
+                                        <input type="text" class="form-control" id="nama_lengkap" placeholder="Nama Lengkap">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputEmail1">Email</label>
+                                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Masukkan email">
+                                        <small id="emailHelp" class="form-text text-muted">Kami tidak akan membagikan email anda dengan orang lain.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="notlp">No Telephone / Hp</label>
+                                        <input type="number" class="form-control" id="telephone" placeholder="No Telephone / Hp">
+                                        <small id="telpHelp" class="form-text text-muted">Contoh: 08819671476</small>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary"  type="button" data-toggle="collapse" data-target="#collapseTambahan" aria-expanded="false" aria-controls="collapseTambahan">
+                                <!-- <span> -->
+                                    <i class="fa fa-plus-square"></i>
+                                <!-- </span> -->
+                                    Informasi Tambahan
+                                </button>
+                                <div class="collapse" id="collapseTambahan">
+                                    <div style="margin-top: 24px;">
+                                        <div class="form-group">
+                                            <label for="alamat">Alamat Lengkap</label>
+                                            <textarea class="form-control" id="alamat" placeholder="Alamat Lengkap"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="tipe">Tipe Donatur</label>
+                                            <div class="form-group" id="tipe">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="tipe" id="tipe1" value="personal" checked>
+                                                    <label class="form-check-label" for="tipe1">Personal</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="tipe" id="tipe2" value="institusi">
+                                                    <label class="form-check-label" for="tipe2">Institusional / Perusahaan / Kelompok</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group hidden" id="nama_institusi">
+                                            <label for="nama_institusi">Nama Institusi</label>
+                                            <input class="form-control" id="nama_institusi" placeholder="Nama Institusi" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="npwp">NPWP</label>
+                                            <input class="form-control" id="npwp" placeholder="NPWP" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="kota">Kota</label>
+                                            <input class="form-control" id="kota" placeholder="Kota" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="provinsi">Provinsi</label>
+                                            <input class="form-control" id="provinsi" placeholder="Provinsi" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="kodepos">Kode Pos</label>
+                                            <input class="form-control" id="kodepos" placeholder="Kode Pos" />
+                                        </div>
+                                    </div>
+                                  </div>
                             </div>
                             <div class="col-lg-12 col-sm-12 box-bkd">
                                 <h3>Jenis Donasi</h3>
                                 <hr />
+                                <div>
+                                    <div class="form-group">
+                                        <label for="jenis_donasi">Jenis Donasi <span style="color: red;">*</span> </label>
+                                        <select id="jenis_donasi" class="form-control">
+                                          <option selected>Pilih...</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pengkhususan">Pengkhususan Donasi</label>
+                                        <select id="pengkhususan" class="form-control">
+                                          <option selected>Pilih...</option>
+                                          <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="keterangan">Keterangan Donasi</label>
+                                        <textarea class="form-control" id="keterangan" placeholder="Keterangan Donasi"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="jumlah_donasi">Jumlah donasi <span style="color: red;">*</span></label>
+                                        <input class="form-control" type="number" id="jumlah_donasi" placeholder="Jumlah donasi" />
+                                        <small id="jumlahHelp" class="form-text text-muted">Minimal: 10000.</small>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -151,9 +239,79 @@
                                     </li>
                                 </ul>
                                 <div class="tab-content" id="myTabContent">
-                                    <div class="tab-pane fade show active" id="transfer" role="tabpanel" aria-labelledby="transfer-tab">...1</div>
-                                    <div class="tab-pane fade" id="digital" role="tabpanel" aria-labelledby="digital-tab">...2</div>
+                                    <div class="tab-pane fade show active" id="transfer" role="tabpanel" aria-labelledby="transfer-tab">
+                                        <div style="padding-top: 24px;">
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant1" value="option1" >
+                                                <label class="form-check-label" for="paymant1">
+                                                  <img src="/images/payment/logo-bca.png" />
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant2" value="option2">
+                                                <label class="form-check-label" for="paymant2">
+                                                  <img src="/images/payment/logo-bni.png" />
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant3" value="option3">
+                                                <label class="form-check-label" for="paymant3">
+                                                  <img src="/images/payment/logo-bri.png" />
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant4" value="option4">
+                                                <label class="form-check-label" for="paymant4">
+                                                  <img src="/images/payment/logo-mandiri.png" />
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant5" value="option5">
+                                                <label class="form-check-label" for="paymant5">
+                                                  <img src="/images/payment/logo-permata.png" />
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="digital" role="tabpanel" aria-labelledby="digital-tab">
+                                        <div style="padding-top: 24px;">
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant6" value="option6" >
+                                                <label class="form-check-label" for="paymant1">
+                                                  <img src="/images/payment/logo-link-aja.png" />
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant7" value="option7" >
+                                                <label class="form-check-label" for="paymant7">
+                                                  <img src="/images/payment/logo-ovo.png" />
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant8" value="option8" >
+                                                <label class="form-check-label" for="paymant8">
+                                                  <img src="/images/payment/logo-dana.png" />
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant9" value="option9" >
+                                                <label class="form-check-label" for="paymant9">
+                                                  <img src="/images/payment/logo-bca-klikpay.png" />
+                                                </label>
+                                            </div>
+                                            <div class="form-check form-pay-bkd">
+                                                <input class="form-check-input" type="radio" name="paymant" id="paymant10" value="option10" >
+                                                <label class="form-check-label" for="paymant10">
+                                                  <img src="/images/payment/logo-mastercard.png" />
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
+                                <hr />
+                                <button class="btn btn-primary btn-circled" style="width: 100%;">
+                                    Donasi Sekarang!
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -311,6 +469,17 @@
     <script src="js/form/contact.js"></script>
     <script src="js/theme.js"></script>
 
+    <script>
+        $("input[name='tipe']").change((e) => {
+            e.preventDefault()
+            console.log(e.target.value)
+            if (e.target.value === "institusi") {
+                $('#nama_institusi').removeClass('hidden')
+            } else {
+                $('#nama_institusi').addClass("hidden")
+            }
+        })
+    </script>
   </body>
   </html>
    

@@ -1987,6 +1987,17 @@ CONTACT PAGE
 .box-bkd hr {
   border: 1px solid #02adfc;
 }
+.form-pay-bkd {
+  margin-bottom: 24px;
+}
+.form-pay-bkd label img {
+  max-width: 100%;
+  height: auto;
+  width: 106px;
+}
+.hidden {
+  display: none;
+}
 .box-inside {
   border: 5px solid #02adfc;
 }
