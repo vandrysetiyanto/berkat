@@ -2002,4 +2002,41 @@ CONTACT PAGE
   border: 5px solid #02adfc;
 }
 
+.breadcrumb {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  display: inline-flex;
+}
+breadcrumb-item {
+  display: inline-block;
+}
+
+span#calendarTitle {
+  display: none;
+}
+
+.chat-box-float {
+  border: 3px solid #02adfc;
+  position: fixed;
+  bottom: 1px;
+  left: 1px;
+  width: 330px;
+  max-height: 400px;
+  overflow: scroll;
+
+  z-index: 1000;
+  background: white;
+}
+
+.btn-bkd-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1000;
+  font-size: 12px;
+}
+
+ul.chat-window {
+  overflow: unset !important;
+}
 /*# sourceMappingURL=maps/style.css.map */

@@ -30,6 +30,7 @@
 
   <!-- FAVICON -->
   <link href="images/ico/favicon.png" rel="shortcut icon">
+  <link rel="stylesheet" href="/plugins/flowchat/flowchat.css" />
 
 </head>
 
@@ -124,7 +125,7 @@
         </div> <!-- / .container -->
     </section>
 
- <section id="work-wrap">
+ <!-- <section id="work-wrap"> -->
             <!-- <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -137,7 +138,7 @@
                     </div>
                 </div>
             </div> -->
-        </section>
+        <!-- </section> -->
 
         <section id="about" class="section">
             <div class="container">
@@ -150,15 +151,22 @@
                             <h3>Yayasan Berkat Kasih Damai</h3>
                         </div>
                     </div>
+                    <div class="col-md-12 col-lg-12 box-bkd">
+                        <iframe id="agenda" src="https://calendar.google.com/calendar/embed?src=berkatkasihdamai%40gmail.com&ctz=Asia%2FJakarta" style="border: 0" width="100%" height="600" frameborder="0"  scrolling="no"></iframe>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <section>
-            <iframe src="https://calendar.google.com/calendar/embed?src=brillidhiya%40gmail.com&ctz=Asia%2FJakarta" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        </section>
+        <!-- <div class="chat-box-float hidden" >
+            <button class="btn-primary"><i class="fa fa-window-close"></i></button>
+            <div id="flowchat"></div>
+        </div>
+        <button class="btn btn-primary btn-bkd-float"> <i class="fa fa-comment"></i> Chat Me</button> -->
+        
+        <!-- <section>
+        </section> -->
     
-        <section id="work" class="section-bottom">
+        <!-- <section id="work" class="section-bottom">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 p-0">
@@ -234,7 +242,7 @@
                         </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
  <!-- <section class="section" id="blog">
@@ -455,6 +463,20 @@
 
     <script src="js/form/contact.js"></script>
     <script src="js/theme.js"></script>
+
+    <script src="/plugins/flowchat/flowchat.js"></script>
+    
+    <script>
+        $.getJSON("data.json", function(dataJSON) {
+            $('#flowchat').flowchat({
+                dataJSON: dataJSON
+            });
+        })
+        $('.btn-bkd-float').click(() => {
+            $('.chat-box-float').removeClass("hidden")
+            $('.btn-bkd-float').addClass("hidden")
+        })
+    </script>
 
   </body>
   </html>
