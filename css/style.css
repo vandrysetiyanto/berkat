@@ -226,8 +226,8 @@ img {
 .bg-primary,
 .btn-primary,
 .btn-white:hover {
-  background: #d11818 !important;
-  border-color: #d11818 !important;
+  background: darkred !important;
+  border-color: darkred !important;
   color: #fff;
 }
 
@@ -280,11 +280,11 @@ img {
 }
 
 .bg-primary {
-  background: #d11818 !important;
+  background: darkred !important;
 }
 
 a {
-  color: #d11818;
+  color: darkred;
 }
 
 a:hover,
@@ -306,7 +306,7 @@ a:focus {
 }
 
 .header-socials li a {
-  color: #d11818;
+  color: darkred;
 }
 
 /*-----------------
@@ -327,7 +327,7 @@ a:focus {
 
 .icon-block {
   margin-right: 20px;
-  color: #d11818;
+  color: darkred;
   font-size: 40px;
   line-height: 20px;
   font-weight: 400;
@@ -351,7 +351,7 @@ a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: #d11818;
+  background: darkred;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
 }
@@ -481,7 +481,7 @@ PAGE BANNER
 .page-about {
   position: relative;
   padding: 160px 0px;
-  background: url("../images/banner/img2.jpg") fixed 50% 50% no-repeat;
+  background: url("../images/banner/visi1.png") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -656,7 +656,7 @@ PAGE BANNER
 .dropdown-item:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #d11818;
+  background-color: darkred;
 }
 
 /*----------------------
@@ -749,7 +749,7 @@ PAGE BANNER
   position: absolute;
   content: "";
   top: -27px;
-  background-color: #d11818;
+  background-color: darkred;
   opacity: 0.3;
   width: 80px;
   right: 70px;
@@ -774,7 +774,7 @@ ABOUT-2
 }
 
 #about .img-block img {
-  border: 5px solid #d11818;
+  border: 5px solid darkred;
 }
 
 .pt-6 {
@@ -789,7 +789,7 @@ ABOUT-2
  SERVICE
 -----------------------*/
 h5.subtitle {
-  color: #d11818;
+  color: darkred;
   margin-bottom: 10px;
   font-weight: 300;
 }
@@ -820,7 +820,7 @@ h5.subtitle {
   font-size: 25px;
   width: 50px;
   height: 50px;
-  background: #d11818;
+  background: darkred;
   text-align: center;
   border-radius: 50%;
   padding-top: 5px;
@@ -888,7 +888,7 @@ h5.subtitle {
 }
 
 .web-service-block:hover i {
-  color: #d11818;
+  color: darkred;
 }
 
 .web-service-block:hover h3 {
@@ -974,7 +974,7 @@ h5.subtitle {
 }
 
 .project-content-block h4 {
-  color: #d11818;
+  color: darkred;
 }
 
 .project-content-block p {
@@ -1012,7 +1012,7 @@ h5.subtitle {
   position: absolute;
   left: 30px;
   top: -23px;
-  background: #d11818;
+  background: darkred;
   color: #fff;
 }
 
@@ -1126,7 +1126,7 @@ h5.subtitle {
   font-family: "Font Awesome 5 Free";
   left: 0px;
   top: 5px;
-  color: #d11818;
+  color: darkred;
   font-weight: 900;
 }
 
@@ -1212,7 +1212,7 @@ PRICING-2
 }
 
 .blog-content:hover a h3 {
-  color: #d11818;
+  color: darkred;
 }
 
 .blog-content h6 span {
@@ -1309,12 +1309,12 @@ CONTACT PAGE
   font-size: 40px;
   margin-bottom: 20px;
   display: block;
-  color: #d11818;
+  color: darkred;
 }
 
 .form-control:focus,
 .form-control:hover {
-  border-color: #d11818;
+  border-color: darkred;
   box-shadow: none;
 }
 
@@ -1671,7 +1671,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #d11818;
+    background: darkred;
   }
   #map {
     margin-top: 40px;
@@ -1703,7 +1703,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #d11818;
+    background: darkred;
   }
   .top-info-block {
     text-align: center;
@@ -1928,7 +1928,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #d11818;
+    background: darkred;
   }
   .web-service-block {
     margin-bottom: 30px;
@@ -1980,12 +1980,12 @@ CONTACT PAGE
 }
 
 .box-bkd {
-  border: 5px solid #d11818;
+  border: 5px solid darkred;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   padding: 24px;
 }
 .box-bkd hr {
-  border: 1px solid #d11818;
+  border: 1px solid darkred;
 }
 .form-pay-bkd {
   margin-bottom: 24px;
@@ -1999,7 +1999,7 @@ CONTACT PAGE
   display: none;
 }
 .box-inside {
-  border: 5px solid #d11818;
+  border: 5px solid darkred;
 }
 
 .breadcrumb {
@@ -2016,7 +2016,7 @@ span#calendarTitle {
 }
 
 .chat-box-float {
-  border: 3px solid #d11818;
+  border: 3px solid darkred;
   position: fixed;
   bottom: 1px;
   left: 1px;
