@@ -226,8 +226,8 @@ img {
 .bg-primary,
 .btn-primary,
 .btn-white:hover {
-  background: #02adfc !important;
-  border-color: #02adfc !important;
+  background: #d11818 !important;
+  border-color: #d11818 !important;
   color: #fff;
 }
 
@@ -280,11 +280,11 @@ img {
 }
 
 .bg-primary {
-  background: #02adfc !important;
+  background: #d11818 !important;
 }
 
 a {
-  color: #02adfc;
+  color: #d11818;
 }
 
 a:hover,
@@ -306,7 +306,7 @@ a:focus {
 }
 
 .header-socials li a {
-  color: #02adfc;
+  color: #d11818;
 }
 
 /*-----------------
@@ -327,7 +327,7 @@ a:focus {
 
 .icon-block {
   margin-right: 20px;
-  color: #02adfc;
+  color: #d11818;
   font-size: 40px;
   line-height: 20px;
   font-weight: 400;
@@ -351,7 +351,7 @@ a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: #02adfc;
+  background: #d11818;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
 }
@@ -480,8 +480,8 @@ PAGE BANNER
 
 .page-about {
   position: relative;
-  padding: 180px 0px;
-  background: url("../images/banner/about.jpg") fixed 50% 50% no-repeat;
+  padding: 160px 0px;
+  background: url("../images/banner/img2.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -656,7 +656,7 @@ PAGE BANNER
 .dropdown-item:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #02adfc;
+  background-color: #d11818;
 }
 
 /*----------------------
@@ -749,7 +749,7 @@ PAGE BANNER
   position: absolute;
   content: "";
   top: -27px;
-  background-color: #02adfc;
+  background-color: #d11818;
   opacity: 0.3;
   width: 80px;
   right: 70px;
@@ -774,7 +774,7 @@ ABOUT-2
 }
 
 #about .img-block img {
-  border: 5px solid #02adfc;
+  border: 5px solid #d11818;
 }
 
 .pt-6 {
@@ -789,7 +789,7 @@ ABOUT-2
  SERVICE
 -----------------------*/
 h5.subtitle {
-  color: #02adfc;
+  color: #d11818;
   margin-bottom: 10px;
   font-weight: 300;
 }
@@ -820,7 +820,7 @@ h5.subtitle {
   font-size: 25px;
   width: 50px;
   height: 50px;
-  background: #02adfc;
+  background: #d11818;
   text-align: center;
   border-radius: 50%;
   padding-top: 5px;
@@ -888,7 +888,7 @@ h5.subtitle {
 }
 
 .web-service-block:hover i {
-  color: #02adfc;
+  color: #d11818;
 }
 
 .web-service-block:hover h3 {
@@ -924,7 +924,7 @@ h5.subtitle {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .overlay.feature-overlay {
@@ -974,7 +974,7 @@ h5.subtitle {
 }
 
 .project-content-block h4 {
-  color: #02adfc;
+  color: #d11818;
 }
 
 .project-content-block p {
@@ -1012,7 +1012,7 @@ h5.subtitle {
   position: absolute;
   left: 30px;
   top: -23px;
-  background: #02adfc;
+  background: #d11818;
   color: #fff;
 }
 
@@ -1126,7 +1126,7 @@ h5.subtitle {
   font-family: "Font Awesome 5 Free";
   left: 0px;
   top: 5px;
-  color: #02adfc;
+  color: #d11818;
   font-weight: 900;
 }
 
@@ -1212,7 +1212,7 @@ PRICING-2
 }
 
 .blog-content:hover a h3 {
-  color: #02adfc;
+  color: #d11818;
 }
 
 .blog-content h6 span {
@@ -1309,12 +1309,12 @@ CONTACT PAGE
   font-size: 40px;
   margin-bottom: 20px;
   display: block;
-  color: #02adfc;
+  color: #d11818;
 }
 
 .form-control:focus,
 .form-control:hover {
-  border-color: #02adfc;
+  border-color: #d11818;
   box-shadow: none;
 }
 
@@ -1344,17 +1344,17 @@ CONTACT PAGE
 }
 
 #footer {
-  background: url("../images/bg/10.jpg");
+  background: darkred;
   background-size: cover;
 }
 
 .footer-overlay {
   background: #111;
-  opacity: 0.94;
+  opacity: 0;
 }
 
 .footer-widget p {
-  color: #888;
+  color: rgb(255, 255, 255);
   margin-top: 20px;
   margin-bottom: 20px;
   line-height: 32px;
@@ -1362,12 +1362,12 @@ CONTACT PAGE
 }
 
 .footer-widget h3 {
-  color: #fff;
+  color: rgb(255, 255, 255);
   margin-bottom: 30px;
 }
 
 .footer-links a {
-  color: #888;
+  color: rgb(255, 255, 255);
   line-height: 38px;
   font-size: 14px;
   text-transform: capitalize;
@@ -1378,7 +1378,7 @@ CONTACT PAGE
 }
 
 .footer-copy {
-  color: #888;
+  color: rgb(255, 255, 255);
   font-size: 16px;
   position: relative;
 }
@@ -1394,7 +1394,7 @@ CONTACT PAGE
 }
 
 .current-year {
-  color: #02adfc !important;
+  color: #000000 !important;
 }
 
 /*-----------------------------
@@ -1406,8 +1406,8 @@ CONTACT PAGE
   right: 30px;
   bottom: 50px;
   z-index: 999;
-  background: #02adfc;
-  color: #fff !important;
+  background: #000000;
+  color: rgb(255, 255, 255) !important;
   border-radius: 100%;
   opacity: 0;
 }
@@ -1671,7 +1671,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #02adfc;
+    background: #d11818;
   }
   #map {
     margin-top: 40px;
@@ -1703,7 +1703,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #02adfc;
+    background: #d11818;
   }
   .top-info-block {
     text-align: center;
@@ -1928,7 +1928,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #02adfc;
+    background: #d11818;
   }
   .web-service-block {
     margin-bottom: 30px;
@@ -1980,12 +1980,12 @@ CONTACT PAGE
 }
 
 .box-bkd {
-  border: 5px solid #02adfc;
+  border: 5px solid #d11818;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   padding: 24px;
 }
 .box-bkd hr {
-  border: 1px solid #02adfc;
+  border: 1px solid #d11818;
 }
 .form-pay-bkd {
   margin-bottom: 24px;
@@ -1999,7 +1999,7 @@ CONTACT PAGE
   display: none;
 }
 .box-inside {
-  border: 5px solid #02adfc;
+  border: 5px solid #d11818;
 }
 
 .breadcrumb {
@@ -2016,7 +2016,7 @@ span#calendarTitle {
 }
 
 .chat-box-float {
-  border: 3px solid #02adfc;
+  border: 3px solid #d11818;
   position: fixed;
   bottom: 1px;
   left: 1px;
