@@ -466,36 +466,106 @@ PAGE BANNER
 
 .page-contact {
   position: relative;
-  padding: 180px 0px;
-  background: url("../images/banner/p-6.jpg") fixed 50% 50% no-repeat;
+  padding: 160px 0px;
+  background: url("../images/banner/kontak.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
-.page-service {
+.page-syarat {
   position: relative;
-  padding: 180px 0px;
-  background: url("../images/banner/service.jpg") fixed 50% 50% no-repeat;
+  padding: 160px 0px;
+  background: url("../images/banner/syarat.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
 .page-about {
   position: relative;
   padding: 160px 0px;
-  background: url("../images/banner/visi1.png") fixed 50% 50% no-repeat;
+  background: url("../images/banner/profil.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
-.page-pricing {
+.page-pendidikan {
   position: relative;
-  padding: 180px 0px;
-  background: url("../images/banner/img2.jpg") fixed 50% 50% no-repeat;
+  padding: 160px 0px;
+  background: url("../images/banner/pendidikan.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
-.page-project {
+.page-ekonomi {
   position: relative;
-  padding: 180px 0px;
+  padding: 160px 0px;
+  background: url("../images/banner/ekonomi.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-sosial {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/sosial.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-budaya {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/budaya.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-konfirmasi {
+  position: relative;
+  padding: 160px 0px;
   background: url("../images/banner/p-4.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-rekening {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/rekening.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-donasi {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/donasi.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-faq {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/faq.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-kesehatan {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/kesehatan.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-galeri {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/galeri.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-agenda {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/agenda.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-berita {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/berita.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
