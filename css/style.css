@@ -516,7 +516,7 @@ PAGE BANNER
 .page-konfirmasi {
   position: relative;
   padding: 160px 0px;
-  background: url("../images/banner/p-4.jpg") fixed 50% 50% no-repeat;
+  background: url("../images/banner/konfirmasi.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -566,6 +566,20 @@ PAGE BANNER
   position: relative;
   padding: 160px 0px;
   background: url("../images/banner/berita.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-gabung {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/gabung.jpg") fixed 50% 50% no-repeat;
+  background-size: cover;
+}
+
+.page-masuk {
+  position: relative;
+  padding: 160px 0px;
+  background: url("../images/banner/gabung.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
