@@ -579,7 +579,7 @@ PAGE BANNER
 .page-masuk {
   position: relative;
   padding: 160px 0px;
-  background: url("../images/banner/gabung.jpg") fixed 50% 50% no-repeat;
+  background: url("../images/banner/login.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 

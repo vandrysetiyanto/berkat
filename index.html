@@ -234,8 +234,12 @@
                 </div>
 
                 <div class="col-lg-5 d-none d-lg-block">
-                    <div class="banner-img-block">
-                        <img src="images/banner-img-5.png" alt="banner-img" class="img-fluid">
+                    <div class="carousel slide " id="service-carousel" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/banner-img-5.png" alt="banner-img" class="img-fluid">
+                            </div>
+                        </div>  
                     </div>
                 </div>
             </div> <!-- / .row -->
@@ -419,12 +423,12 @@
                     <div class="section-heading">
                         <!-- Heading -->
                         <h2 class="section-title mb-2 text-white">
-                            Web Services
+                            Layanan
                         </h2>
 
                         <!-- Subheading -->
                         <p class="mb-5 text-white">
-                            Rapoo can be used to create anything from a small marketing page to a sophisticated website.
+                            Memberikan Kemudahan dalam menyalurkan donasi kepada sesama
                         </p>
                     </div>
                 </div>
@@ -433,26 +437,26 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
                     <div class="web-service-block">
-                        <i class="ti-light-bulb"></i>
-                        <h3>Creative Design</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                        <i class="ti-wallet"></i>
+                        <h3>Donasi</h3>
+                        <p></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
                     <div class="web-service-block">
-                        <i class="ti-desktop"></i>
-                        <h3>Web Development</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                        <i class="ti-mobile"></i>
+                        <h3>Konfirmasi Donasi</h3>
+                        <p></p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 col-md-6 mb-30">
                     <div class="web-service-block">
-                        <i class="ti-announcement"></i>
-                        <h3>Digital Marketing</h3>
-                        <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
+                        <i class="ti-credit-card"></i>
+                        <h3>Nomor Rekening</h3>
+                        <p></p>
                     </div>
                 </div>
-
+<!-- 
                 <div class="col-lg-4 col-sm-6 col-md-6 ">
                     <div class="web-service-block">
                         <i class="ti-layers-alt"></i>
@@ -473,7 +477,7 @@
                         <h3>Wordpress Installation</h3>
                         <p>Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had .</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -505,12 +509,9 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="service-block media">
-                                            <!-- <div class="service-icon">
-                                                <i class="ti-reload"></i>
-                                            </div> -->
                                             <div class="service-inner-content media-body">
                                                 <div class="form-check form-pay-bkd">
-                                                    <input class="form-check-input" type="radio" name="paymant" id="paymant1" value="option1" >
+                                                    <input class="form-check-input" type="hidden" name="paymant" id="paymant1" value="option1" >
                                                     <label class="form-check-labl" for="paymant1">
                                                       <img src="images/payment/logo-bca-klikpay.png" />
                                                     </label>
@@ -520,12 +521,13 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="service-block media">
-                                            <div class="service-icon">
-                                                <i class="ti-target"></i>
-                                            </div>
                                             <div class="service-inner-content media-body">
-                                                <h4>Fokus Target</h4>
-                                                <p>Mencari orang yang memiliki jiwa sosial tinggi</p>
+                                                <div class="form-check form-pay-bkd">
+                                                    <input class="form-check-input" type="hidden" name="paymant" id="paymant1" value="option1" >
+                                                    <label class="form-check-labl" for="paymant1">
+                                                      <img src="images/payment/logo-bni.png" />
+                                                    </label>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -538,23 +540,25 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="service-block media">
-                                            <div class="service-icon">
-                                                <i class="ti-world"></i>
-                                            </div>
                                             <div class="service-inner-content media-body">
-                                                <h4>Salurkan Kebahagiaan</h4>
-                                                <p>Meyakini dapat menjangkau ke seluruh dunia</p>
+                                                <div class="form-check form-pay-bkd">
+                                                    <input class="form-check-input" type="hidden" name="paymant" id="paymant1" value="option1" >
+                                                    <label class="form-check-labl" for="paymant1">
+                                                      <img src="images/payment/logo-dana.png" />
+                                                    </label>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="service-block media">
-                                            <div class="service-icon">
-                                                <i class="ti-star"></i>
-                                            </div>
                                             <div class="service-inner-content media-body">
-                                                <h4>Meraih Tujuan</h4>
-                                                <p>Bersama akan lebih mudah dalam meraih kesuksesan</p>
+                                                <div class="form-check form-pay-bkd">
+                                                    <input class="form-check-input" type="hidden" name="paymant" id="paymant1" value="option1" >
+                                                    <label class="form-check-labl" for="paymant1">
+                                                      <img src="images/payment/logo-link-aja.png" />
+                                                    </label>
+                                                </div>  
                                             </div>
                                         </div>
                                     </div>
