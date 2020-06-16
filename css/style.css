@@ -146,7 +146,7 @@ img {
 
 @media (min-width: 768px) {
   .section {
-    padding: 7.5rem 0;
+    padding: 3rem 0;
   }
 }
 
@@ -936,8 +936,8 @@ h5.subtitle {
   height: 100%;
   background-image: linear-gradient(
     30deg,
-    rgba(121, 110, 255, 0.95) 0%,
-    rgba(33, 200, 122, 0.95) 100%
+    rgba(177, 10, 24, 0.95) 0%,
+    rgba(22, 142, 240, 0.95) 100%
   );
 }
 
