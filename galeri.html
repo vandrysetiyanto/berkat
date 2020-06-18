@@ -195,7 +195,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 p-0">
                         <div class="work-block">
-                            <img src="images/work/1.jpeg" alt="work-img" class="img-fluid">
+                            <img id="myImg1" src="images/work/1.jpeg" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
                                 <h4>Depan Gapura Wisata</h4>
                                 <p>Pintu masuk manuju tempat wisata</p>
@@ -205,7 +205,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 p-0">
                         <div class="work-block">
-                            <img src="images/work/2.jpeg" alt="work-img" class="img-fluid">
+                            <img id="myImg2" src="images/work/2.jpeg" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
                                 <h4>Depan Gapura Omaku Memoriku</h4>
                                 <p>Anggota yayasan berfoto bersama</p>
@@ -215,7 +215,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 p-0">
                         <div class="work-block">
-                            <img src="images/work/3.jpeg" alt="work-img" class="img-fluid">
+                            <img id="myImg3" src="images/work/3.jpeg" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
                                 <h4>Wisata</h4>
                                 <p>Foto bersama di tempat wisata</p>
@@ -226,7 +226,7 @@
                  
                     <div class="col-lg-3 col-md-6 p-0">
                         <div class="work-block">
-                            <img src="images/work/13.jpeg" alt="work-img" class="img-fluid">
+                            <img id="myImg4" src="images/work/13.jpeg" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
                                 <h4>Dokumentasi 1</h4>
                                 <p></p>
@@ -236,7 +236,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 p-0">
                         <div class="work-block">
-                            <img src="images/work/10.jpeg" alt="work-img" class="img-fluid">
+                            <img id="myImg5" src="images/work/10.jpeg" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
                                 <h4>Dokumentasi 2</h4>
                                 <p></p>
@@ -246,7 +246,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 p-0">
                         <div class="work-block">
-                            <img src="images/work/8.jpeg" alt="work-img" class="img-fluid">
+                            <img id="myImg6" src="images/work/8.jpeg" alt="work-img" class="img-fluid">
                             <div class="overlay-content-block">
                                 <h4>Dokumentasi 3</h4>
                                 <p></p>
@@ -256,7 +256,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 p-0">
                             <div class="work-block">
-                                <img src="images/work/5.jpeg" alt="work-img" class="img-fluid">
+                                <img id="myImg7" src="images/work/5.jpeg" alt="work-img" class="img-fluid">
                                 <div class="overlay-content-block">
                                     <h4>Dokumentasi 4</h4>
                                     <p></p>
@@ -268,6 +268,17 @@
             </div>
         </section>
 
+        <div id="myModal" class="modal">
+
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+          
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01">
+          
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
 
  <!-- <section class="section" id="blog">
         <div class="container">
@@ -483,6 +494,80 @@
 
     <script src="js/form/contact.js"></script>
     <script src="js/theme.js"></script>
+
+    <script>
+    window.onbeforeunload = function() {
+        window.scrollTo(0,0);
+        // return "Dude, are you sure you want to refresh? Think of the kittens!";
+    }
+
+    var modal = document.getElementById("myModal");
+
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img1 = document.getElementById("myImg1");
+    var img2 = document.getElementById("myImg2");
+    var img3 = document.getElementById("myImg3");
+    var img4 = document.getElementById("myImg4");
+    var img5 = document.getElementById("myImg5");
+    var img6 = document.getElementById("myImg6");
+    var img7 = document.getElementById("myImg7");
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img1.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    img2.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    img3.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    img4.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    img5.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    img6.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    img7.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    modal.ondblclick = function() {
+        modal.style.display = "none"
+    }
+
+    </script>
 
   </body>
   </html>
