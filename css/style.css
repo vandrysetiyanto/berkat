@@ -923,7 +923,7 @@ h5.subtitle {
 -----------------------*/
 #services-2 {
   position: relative;
-  background: url("../images/bg/6.jpg") no-repeat fixed 50% 50%;
+  background: url("../images/bg/banner.jpg") no-repeat fixed 50% 50%;
   background-size: cover;
 }
 
@@ -1008,7 +1008,7 @@ h5.subtitle {
 -----------------------*/
 #projects-wrap {
   position: relative;
-  background: url("../images/bg/banner_bg.jpg") no-repeat;
+  background: url("../images/bg/banner.jpg") no-repeat;
   background-size: cover;
 }
 
